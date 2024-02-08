@@ -9,8 +9,6 @@ Suggested packages:
 ctags vim-doc vim-scripts
 The following NEW packages will be installed:
 vim vim-runtime
-0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
-Need to get 6,762 kB of archives.
 After this operation, 31.0 MB of additional disk space will be used.
 (Reading database ... 215377 files and directories currently installed.)
 Preparing to unpack .../vim-runtime_2%3a8.1.2269-1ubuntu5_all.deb ...
@@ -34,7 +32,7 @@ Processing triggers for man-db (2.9.1-1) ...`
       prints = prints.split('\n');
       for(let i=0;i<prints.length;i++){
         printf(prints[i]);
-        let random = Math.round(Math.random()*200); 
+        let random = Math.round(Math.random()*80); 
         await sleep(random);
       }
       await sleep(100);
