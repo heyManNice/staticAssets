@@ -33,7 +33,7 @@ Processing triggers for man-db (2.9.1-1) ...`
       for(let i=0;i<prints.length;i++){
         printf(prints[i]);
         let random = Math.round(Math.random()*200);
-        let time = random>(0.9*random)?1100:random;
+        let time = random>170?1100:random;
         await sleep(time);
       }
       await sleep(100);
